@@ -23,9 +23,9 @@ map("n", "<C-Down>", ":resize +2<CR>", "Resize window")
 map("n", "<C-Left>", ":vertical resize -2<CR>", "Resize window")
 map("n", "<C-Right>", ":vertical resize +2<CR>", "Resize window")
 -- buffer
-map("n", "<S-j>", ":bnext<CR>", "Move to next buffer")
-map("n", "<S-k>", ":bprevious<CR>", "Move to previous buffer")
-map("n", "<S-q>", ":Bdelete!<CR>", "Close buffer")
+map("n", "<S-h>", ":bnext<CR>", "Move to next buffer")
+map("n", "<S-l>", ":bprevious<CR>", "Move to previous buffer")
+map("n", "<C-q>", ":Bdelete!<CR>", "Close buffer")
 
 map("n", "<C-s>", "<cmd> w <CR>", "Save file")
 
