@@ -7,4 +7,3 @@ require("core.keymaps")
 require("core.begin")
 
 vim.cmd.colorscheme "catppuccin"
-
