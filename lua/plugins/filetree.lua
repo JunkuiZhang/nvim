@@ -1,6 +1,5 @@
 return {
     "nvim-tree/nvim-tree.lua",
-    version = "*",
     lazy = false,
     dependencies = {
         "nvim-tree/nvim-web-devicons",
@@ -36,7 +35,10 @@ return {
             renderer = {
                 root_folder_label = false,
                 indent_markers = {
-                    enable = false,
+                    enable = true,
+                },
+                icons = {
+                    git_placement = "signcolumn",
                 },
             },
         })
